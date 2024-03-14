@@ -26,6 +26,9 @@ public class Date {
    *
    * @return The day of the month (1-31).
    */
+  public void live(){
+    System.out.println("La vida es una tombola, ton ton tombola");
+  }
   public int getDay() {
     return day;
   }
