@@ -54,22 +54,17 @@ public class Date {
   /**
    * Constructs a Date object representing a specific day, month, and year.
    *
-   * @param day The day of the month (1-31).
-   * @param month The month of the year (1-12).
-   * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
+   * @param dia The day of the month (1-31).
+   * @param mes The month of the year (1-12).
+   * @param año The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-<<<<<<< HEAD
-  public Date(int tag, int monat, int jahr) {
-    this.day = tag;
-    this.month = monat;
-    this.year = jahr;
-=======
+
   public Date(int dia, int mes, int año) {
     this.day = dia;
     this.month = mes;
     this.year = año;
->>>>>>> 3a76ea34785be369f4a1ddd4cae64113fe8c7757
+
   }
 
   /**
